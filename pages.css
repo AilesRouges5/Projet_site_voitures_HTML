@@ -60,9 +60,8 @@ table th{
 }
 
 .gallery img:active{
-    transform:scale(3.00);
-    object-fit:cover;
-    align-items: center;
+    width: 50%;
+
 
 }
 
