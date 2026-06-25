@@ -60,8 +60,10 @@ table th{
 }
 
 .gallery img:active{
-    transform:scale(1.02);
+    transform:scale(3.00);
     object-fit:cover;
+    align-items: center;
+
 }
 
 .btn-retour{
