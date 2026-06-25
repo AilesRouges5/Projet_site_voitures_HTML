@@ -74,7 +74,7 @@ table th{
 @media (max-width: 768px) {
     .gallery img:hover,
     .gallery img.active {
-        transform: scale(2.8);
+        transform: scale(3.2);
     }
 }
 
