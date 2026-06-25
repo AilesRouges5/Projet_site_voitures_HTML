@@ -60,8 +60,7 @@ table th{
 }
 
 .gallery img:active{
-    width: 50%;
-
+    width: 100%;
 
 }
 
