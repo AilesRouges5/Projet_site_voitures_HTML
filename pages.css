@@ -60,7 +60,7 @@ table th{
 }
 
 .gallery img:active{
-    width: 50%;
+    transform:scale(1.02);
 }
 
 .btn-retour{
