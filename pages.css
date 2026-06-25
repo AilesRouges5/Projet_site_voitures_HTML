@@ -59,10 +59,7 @@ table th{
     border-radius:10px;
 }
 
-.gallery img:active{
-    width: 100%;
 
-}
 
 .btn-retour{
     display:inline-block;
