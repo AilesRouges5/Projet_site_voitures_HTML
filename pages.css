@@ -62,12 +62,20 @@ table th{
     cursor:pointer;
 }
 
-.gallery img:hover{
-    transform:scale(1.2);
+/* Desktop */
+@media (min-width: 769px) {
+    .gallery img:hover,
+    .gallery img.active {
+        transform: scale(1.2);
+    }
 }
 
-.gallery img.active{
-    transform:scale(1.2);
+/* Mobile */
+@media (max-width: 768px) {
+    .gallery img:hover,
+    .gallery img.active {
+        transform: scale(1.5);
+    }
 }
 
 
