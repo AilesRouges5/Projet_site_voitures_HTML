@@ -66,6 +66,10 @@ table th{
     transform:scale(1.2);
 }
 
+.gallery img.active{
+    transform:scale(1.2);
+}
+
 
 
 .btn-retour{
