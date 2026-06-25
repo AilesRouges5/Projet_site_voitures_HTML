@@ -61,6 +61,7 @@ table th{
 
 .gallery img:active{
     transform:scale(1.02);
+    object-fit:cover;
 }
 
 .btn-retour{
