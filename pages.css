@@ -52,11 +52,18 @@ table th{
     display:flex;
     gap:10px;
     flex-wrap:wrap;
+    justify-content:center;
 }
 
 .gallery img{
     width:32%;
     border-radius:10px;
+    transition:transform 0.3s ease;
+    cursor:pointer;
+}
+
+.gallery img:hover{
+    transform:scale(1.2);
 }
 
 
