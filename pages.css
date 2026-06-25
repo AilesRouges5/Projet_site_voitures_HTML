@@ -60,6 +60,7 @@ table th{
     border-radius:10px;
     transition:transform 0.3s ease;
     cursor:pointer;
+    transform-origin: center center;
 }
 
 /* Desktop */
@@ -67,6 +68,8 @@ table th{
     .gallery img:hover,
     .gallery img.active {
         transform: scale(1.5);
+        position: relative;
+        z-index: 2;
     }
 }
 
@@ -75,6 +78,8 @@ table th{
     .gallery img:hover,
     .gallery img.active {
         transform: scale(3.2);
+        position: relative;
+        z-index: 2;
     }
 }
 
