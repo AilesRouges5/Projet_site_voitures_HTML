@@ -59,7 +59,7 @@ table th{
     border-radius:10px;
 }
 
-.gallery img:hover{
+.gallery img:active{
     width: 50%;
 }
 
