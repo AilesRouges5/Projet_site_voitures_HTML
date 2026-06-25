@@ -59,6 +59,10 @@ table th{
     border-radius:10px;
 }
 
+.gallery img:hover{
+    transform: scale(2.00);
+}
+
 .btn-retour{
     display:inline-block;
     padding:12px 20px;
