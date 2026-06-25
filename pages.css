@@ -59,8 +59,8 @@ table th{
     border-radius:10px;
 }
 
-.img:hover{
-    transform: scale(1.10);
+.gallery img:hover{
+    width: 50%;
 }
 
 .btn-retour{
